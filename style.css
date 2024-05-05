@@ -3,6 +3,7 @@
 @import url(./styles/home.css);
 @import url(./styles/sobre.css);
 @import url(./styles/atuacao.css);
+@import url(./styles/quem-precisa.css);
 
 * {
   margin: 0;
