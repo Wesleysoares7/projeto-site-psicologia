@@ -1,0 +1,13 @@
+.sobre {
+  padding: 20px 6%;
+}
+
+.sobre h2 {
+  margin-top: 2rem;
+  color: var(--cor-primary-1);
+}
+
+.sobre h3 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+}
