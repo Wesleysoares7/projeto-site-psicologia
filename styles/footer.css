@@ -1,0 +1,52 @@
+footer {
+  padding: 40px 6%;
+  background-color: var(--cor-primary-1);
+}
+
+.footer-infor {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.dados-profissionais {
+  width: 45%;
+}
+
+.dados-profissionais h4 {
+  color: #fff;
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+}
+
+.mensagem {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.contato,
+.social {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.copyrigth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-infor i {
+  padding-right: 0.2rem;
+}
+
+.footer-infor a {
+  transition: 0.2s;
+}
+
+.social a,
+.contato a {
+  transform: scale(1.05);
+}
