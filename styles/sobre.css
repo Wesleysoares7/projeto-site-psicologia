@@ -2,12 +2,61 @@
   padding: 20px 6%;
 }
 
-.sobre h2 {
+.interface {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.info-sobre {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.nome-sobre h2 {
   margin-top: 2rem;
   color: var(--cor-primary-1);
 }
 
-.sobre h3 {
+.nome-sobre h3 {
   font-family: "Great Vibes", cursive;
   font-size: 3rem;
+}
+
+.sobre-mim-texto,
+.especialidades {
+  color: var(--cor-primary-1);
+}
+
+.sobre-mim-texto {
+  text-align: justify;
+}
+
+.especialidades {
+  padding-left: 1rem;
+}
+
+.img-sobre {
+  background-color: var(--cor-primary-3);
+  padding: 1.5rem 0 0 1.5rem;
+}
+
+@media screen and (max-width: 1120px) {
+  .nome-sobre h3 {
+    font-size: 2rem;
+  }
+
+  .nome-sobre p {
+    font-size: 0.7rem;
+  }
+
+  .interface {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .img-sobre img {
+    width: 100%;
+  }
 }
