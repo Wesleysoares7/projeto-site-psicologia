@@ -2,6 +2,7 @@
 @import url(./styles/header.css);
 @import url(./styles/home.css);
 @import url(./styles/sobre.css);
+@import url(./styles/atuacao.css);
 
 * {
   margin: 0;
