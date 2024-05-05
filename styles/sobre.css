@@ -2,7 +2,7 @@
   padding: 20px 6%;
 }
 
-.interface {
+.interface-sobre {
   display: flex;
   gap: 4rem;
   align-items: center;
@@ -51,9 +51,8 @@
     font-size: 0.7rem;
   }
 
-  .interface {
+  .interface-sobre {
     flex-direction: column-reverse;
-    gap: 0;
   }
 
   .img-sobre img {
