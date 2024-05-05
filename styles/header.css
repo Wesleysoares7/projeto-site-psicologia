@@ -73,7 +73,7 @@ header .menu-desktop nav ul li a:hover {
 
 .menu-mobile nav ul li a:hover {
   background-color: var(--cor-primary-1);
-  color: #fff;
+  color: var(--cor-primary-3);
 }
 
 .overlay-menu {
