@@ -96,7 +96,6 @@ header .menu-desktop nav ul li a:hover {
   height: 2rem;
   width: 10rem;
   border-radius: 0.5rem;
-  cursor: pointer;
   transition: 0.2s;
 }
 
