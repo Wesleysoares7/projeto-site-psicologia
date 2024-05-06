@@ -20,30 +20,32 @@
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/menu.js" defer></script>
     <title>Projeto Site Psicologia</title>
   </head>
   <body>
     <header>
       <div class="logo"><h2>Psicologo Clínica</h2></div>
-      <div class="menu-desktop">
+      <div class="menu-desktop" data-aos="fade-up">
         <nav>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">Sobre mim</a>
+              <a href="#sobre">Sobre mim</a>
             </li>
             <li>
-              <a href="#">Área de Atuação</a>
+              <a href="#atuacao">Área de Atuação</a>
             </li>
             <li>
-              <a href="#">Supervisão Clínica</a>
+              <a href="#supervisao">Supervisão Clínica</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
           </ul>
         </nav>
@@ -53,9 +55,12 @@
         <i class="bi bi-list"></i>
       </div>
 
-      <div class="botao-contato">
+      <div class="botao-contato" data-aos="fade-up" data-aos-delay="400">
         <button>
-          <a href="#">
+          <a
+            href="https://api.whatsapp.com/send?phone=5586981825254"
+            target="_blank"
+          >
             Vamos Convesar?
             <i class="bi bi-whatsapp"></i>
           </a>
@@ -69,22 +74,26 @@
         <nav>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">Sobre mim</a>
+              <a href="#sobre">Sobre mim</a>
             </li>
             <li>
-              <a href="#">Área de Atuação</a>
+              <a href="#atuacao">Área de Atuação</a>
             </li>
             <li>
-              <a href="#">Supervisão Clínica</a>
+              <a href="#surpevisao">Supervisão Clínica</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#contato">Contato</a>
             </li>
             <li>
-              <a href="#">Vamos Conversar</a>
+              <a
+                href="https://api.whatsapp.com/send?phone=5586981825254"
+                target="_blank"
+                >Vamos Conversar</a
+              >
             </li>
           </ul>
         </nav>
@@ -93,17 +102,21 @@
     </header>
 
     <main>
-      <section class="topo-site">
+      <section id="home" class="topo-site">
         <div class="img-topo-site">
           <img src="./public/flores.avif" alt="" />
           <div class="opacidade"></div>
         </div>
-        <div class="nome">
+        <div class="nome" data-aos="fade-down" data-aos-delay="600">
           <div class="nome-profissional">
             <p>Seu Nome Aqui</p>
           </div>
         </div>
-        <div class="identificacao-profissional">
+        <div
+          class="identificacao-profissional"
+          data-aos="fade-rigth"
+          data-aos-delay="800"
+        >
           <h2>Psicólogo Clínico</h2>
           <p>CRP 777/7777</p>
           <div class="texto-home">
@@ -115,16 +128,19 @@
             </p>
           </div>
         </div>
-        <div class="botao-contato">
+        <div class="botao-contato" data-aos="fade-left" data-aos-delay="1000">
           <button>
-            <a href="#">
+            <a
+              href="https://api.whatsapp.com/send?phone=5586981825254"
+              target="_blank"
+            >
               Mais informações
               <i class="bi bi-whatsapp"></i>
             </a>
           </button>
         </div>
       </section>
-      <section class="sobre">
+      <section id="sobre" class="sobre">
         <div class="interface-sobre">
           <div class="info-sobre">
             <div class="nome-sobre">
@@ -171,7 +187,7 @@
           </div>
         </div>
       </section>
-      <section class="atuacao">
+      <section id="atuacao" class="atuacao">
         <div class="interface-atuacao">
           <div class="titulo">
             <h1>AREA DE ATUAÇÃO</h1>
@@ -243,7 +259,7 @@
           </div>
         </div>
       </section>
-      <section class="quem-precisa">
+      <section id="supervisao" class="quem-precisa">
         <div class="interface-quem-precisa">
           <div class="titulo">
             <h2>QUEM PRECISA DE PSICOTERAPIA?</h2>
@@ -251,7 +267,10 @@
           </div>
           <div class="botao-contato">
             <button>
-              <a href="#">
+              <a
+                href="https://api.whatsapp.com/send?phone=5586981825254"
+                target="_blank"
+              >
                 Mais informações
                 <i class="bi bi-whatsapp"></i>
               </a>
@@ -315,7 +334,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="contato">
       <div class="footer-infor">
         <div class="dados-profissionais">
           <h4>Seu nome aqui</h4>
@@ -342,5 +361,6 @@
         <p><a href="#">Desenvolvido pela Agência WSSoluções Web</a></p>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
